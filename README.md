@@ -18,9 +18,16 @@ And implement the dependency of viewModel and LiveData in your build.gradele (ap
 
 
 
-// ViewModel    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")   
+// ViewModel 
 
- // LiveData    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")}
+implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+
+
+ // LiveData    
+ 
+implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")
+
+
 
 
 
